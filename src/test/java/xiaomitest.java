@@ -22,9 +22,9 @@ public class xiaomitest {
         login.click();
         //进入登录页面
         WebElement loginAccount = driver.findElement(new By.ById("username"));
-        loginAccount.sendKeys("");
+        loginAccount.sendKeys("18717763297");
         WebElement loginPassword = driver.findElement(new By.ById("pwd"));
-        loginPassword.sendKeys("");
+        loginPassword.sendKeys("bing52013");
         WebElement loginButton = driver.findElement(new By.ById("login-button"));
         loginButton.click();
         //登录成功之后，跳转购买页面
